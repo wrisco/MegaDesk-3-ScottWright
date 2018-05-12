@@ -28,5 +28,11 @@ namespace MegaDesk_3_ScottWright
 		{
 			labelDate.Text = DateTime.Now.ToShortDateString();
 		}
+
+		private void AddQuote_FormClosing(object sender, FormClosingEventArgs e)
+		{
+			var mainMenu = (MainMenu)Tag;
+			mainMenu.Show();
+		}
 	}
 }

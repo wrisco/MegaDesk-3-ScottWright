@@ -85,19 +85,19 @@
 			// 
 			this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(273, 79);
+			this.pictureBox1.Location = new System.Drawing.Point(276, 39);
 			this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(188, 180);
+			this.pictureBox1.Size = new System.Drawing.Size(258, 261);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 4;
 			this.pictureBox1.TabStop = false;
 			// 
 			// MainMenu
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(532, 346);
+			this.ClientSize = new System.Drawing.Size(605, 397);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.Exit);
 			this.Controls.Add(this.SearchQuote);

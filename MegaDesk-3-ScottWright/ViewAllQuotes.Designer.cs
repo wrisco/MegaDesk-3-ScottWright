@@ -34,9 +34,10 @@
 			// ViewAllQuotesCancel
 			// 
 			this.ViewAllQuotesCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ViewAllQuotesCancel.Location = new System.Drawing.Point(359, 236);
+			this.ViewAllQuotesCancel.Location = new System.Drawing.Point(538, 363);
+			this.ViewAllQuotesCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.ViewAllQuotesCancel.Name = "ViewAllQuotesCancel";
-			this.ViewAllQuotesCancel.Size = new System.Drawing.Size(75, 23);
+			this.ViewAllQuotesCancel.Size = new System.Drawing.Size(112, 35);
 			this.ViewAllQuotesCancel.TabIndex = 0;
 			this.ViewAllQuotesCancel.Text = "&Cancel";
 			this.ViewAllQuotesCancel.UseVisualStyleBackColor = true;
@@ -44,12 +45,14 @@
 			// 
 			// ViewAllQuotes
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(1200, 692);
 			this.Controls.Add(this.ViewAllQuotesCancel);
+			this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.Name = "ViewAllQuotes";
 			this.Text = "ViewAllQuotes";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ViewAllQuotes_FormClosing);
 			this.ResumeLayout(false);
 
 		}

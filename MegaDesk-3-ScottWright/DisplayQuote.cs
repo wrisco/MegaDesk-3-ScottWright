@@ -23,5 +23,11 @@ namespace MegaDesk_3_ScottWright
 			mainMenu.Show();
 			Close();
 		}
+
+		private void DisplayQuote_FormClosing(object sender, FormClosingEventArgs e)
+		{
+			var mainMenu = (MainMenu)Tag;
+			mainMenu.Show();
+		}
 	}
 }

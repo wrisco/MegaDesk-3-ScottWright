@@ -34,9 +34,10 @@
 			// DisplayQuoteCancel
 			// 
 			this.DisplayQuoteCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.DisplayQuoteCancel.Location = new System.Drawing.Point(311, 254);
+			this.DisplayQuoteCancel.Location = new System.Drawing.Point(466, 391);
+			this.DisplayQuoteCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.DisplayQuoteCancel.Name = "DisplayQuoteCancel";
-			this.DisplayQuoteCancel.Size = new System.Drawing.Size(75, 23);
+			this.DisplayQuoteCancel.Size = new System.Drawing.Size(112, 35);
 			this.DisplayQuoteCancel.TabIndex = 0;
 			this.DisplayQuoteCancel.Text = "&Cancel";
 			this.DisplayQuoteCancel.UseVisualStyleBackColor = true;
@@ -44,12 +45,14 @@
 			// 
 			// SearchQuotes
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(1200, 692);
 			this.Controls.Add(this.DisplayQuoteCancel);
+			this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.Name = "SearchQuotes";
 			this.Text = "Search Quotes";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SearchQuotes_FormClosing);
 			this.ResumeLayout(false);
 
 		}
